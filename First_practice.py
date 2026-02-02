@@ -110,24 +110,24 @@ numSites = 0
 # print(len(myDict))
 # print(myDict['name'])
 
-languages={
-    'one':{
-        'name':'javaScript',
-        'progress': 50
-    },
-    'two':{
-        'name':'VBA',
-        'progress': 50
-    },
-    'three':{
-        'name':'c++',
-        'progress': 10
-    },
-    'four':{
-        'name':'Type Script',
-        'progress': 20
-    }
-}
+# languages={
+#     'one':{
+#         'name':'javaScript',
+#         'progress': 50
+#     },
+#     'two':{
+#         'name':'VBA',
+#         'progress': 50
+#     },
+#     'three':{
+#         'name':'c++',
+#         'progress': 10
+#     },
+#     'four':{
+#         'name':'Type Script',
+#         'progress': 20
+#     }
+# }
 # print(languages['one']['name'])
 # counter = 0
 # while counter < len(languages):
@@ -143,10 +143,28 @@ languages={
 
 #===================================================== Tuples ============================================================
 
-myTup=(15,2,3,4,5,6,15,15,15,15,15)
+# myTup=(15,2,3,4,5,6,15,15,15,15,15)
 
 # for item in myTup:
 #     print(item)
 
-print(myTup.index(15))
-print(myTup.count(15))
+# print(myTup.index(15))
+# print(myTup.count(15))
+
+
+#===================================================== Task from hackerrank ============================================================
+# https://www.hackerrank.com/challenges/py-if-else/problem?isFullScreen=true
+
+# currentNum =int(input("please enter a number").strip())
+
+# if currentNum % 2 !=0 :
+#     print("WEIRD")
+# else:
+#     if currentNum >= 2 and currentNum <= 5 :
+#         print('range from 2 to 5')
+#     elif currentNum >= 6 and currentNum <=20 :
+#         print('range from 6 to 20')
+#     elif currentNum > 20 :
+#         print('range from 20')
+#     else: 
+#         print('out of our ranges')
