@@ -168,3 +168,28 @@ numSites = 0
 #         print('range from 20')
 #     else: 
 #         print('out of our ranges')
+
+
+#===================================================== Strings methods ============================================================
+
+# myName = input("Please enter your name: ")
+
+# print(myName.strip().upper())
+# print(myName[:4])
+# print(myName.index("S")) #case sesitive 
+# print(myName.find("S")) # returns -1 if character not found
+# print("hello \n my name is assma, \n I'm algerian student".splitlines())
+
+
+myName = input("Please enter your name: ")
+# if myName == "":
+#     print("pleease enter a valid name")
+#     myName = input("Please enter your name: ")
+# else:
+#     print(f"Hello {myName.upper()}")
+
+
+print(myName.replace("as","AS"))
+
+print(myName.join("baziz"))
+
