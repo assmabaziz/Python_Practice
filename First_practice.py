@@ -181,7 +181,7 @@ numSites = 0
 # print("hello \n my name is assma, \n I'm algerian student".splitlines())
 
 
-myName = input("Please enter your name: ")
+# myName = input("Please enter your name: ")
 # if myName == "":
 #     print("pleease enter a valid name")
 #     myName = input("Please enter your name: ")
@@ -189,7 +189,48 @@ myName = input("Please enter your name: ")
 #     print(f"Hello {myName.upper()}")
 
 
-print(myName.replace("as","AS"))
+# print(myName.replace("as","AS"))
 
-print(myName.join("baziz"))
+# print(myName.join("baziz"))
 
+
+#===================================================== Functions ============================================================
+myName = "Assma"
+# def test_func():
+#     print("hello there".upper())
+
+# test_func()
+
+
+# def func_with_args(name):
+#     print(f"hello args {name}")
+
+# func_with_args(myName)
+
+
+# def func_with_unpacking(*people):
+#     for item in people:
+#         print(f"Hello {item}")
+   
+# func_with_unpacking("ass","fghfgh","dfgdfg","dgdfg","jklhjkl")
+
+
+#===================================================== Function Recursion ============================================================
+
+# def clear_word(word):
+    
+#     if len(word) == 1 :
+#         return word
+    
+#     if word[0] == word[1]:
+#         print(f"the word with condition {word}")
+#         return clear_word(word[1:]) 
+    
+#     return clear_word(word[0]) + clear_word(word[1:])
+
+
+# print(clear_word("wwwwoooooorrrrrrrlllllllldddddddddd"))
+
+
+
+#===================================================== Function Recursion ============================================================
