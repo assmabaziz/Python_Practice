@@ -236,6 +236,103 @@ myName = "Assma"
 #===================================================== Function Lambda ============================================================
 
 
-lambdaFunc = lambda name, rank : f"Hello {name}, your rank is {rank}"
+# lambdaFunc = lambda name, rank : f"Hello {name}, your rank is {rank}"
 
-print(lambdaFunc("Assma", 15))
+# print(lambdaFunc("Assma", 15))
+
+#===================================================== Files Handling ============================================================
+
+
+# import os
+
+# print(os.getcwd())
+# print(os.path.abspath(__file__))
+# print(os.path.dirname("\n\n\n/home/user/Desktop/Untitled Folder 3/Python_Practice/First_practice.py"))
+# myFile = open("/home/user/Desktop/Untitled Folder 3/Python_Practice/test.txt")
+
+# myFile = open("/home/user/Desktop/Untitled Folder 3/Python_Practice/test.txt" )
+# myFile.write("hello there \n" * 50)
+# print(myFile.mode)
+# print(myFile.read())
+
+# myFile.close()
+
+
+#===================================================== Built in functions ============================================================
+
+
+# a = 15 
+
+# print(id(a))
+
+
+#================================================ Map =====================
+
+# def format_text(text):
+#     return f"{text.upper()}"
+
+# myList=["assma","baziz","ghjkfl","kjfghdf"]
+# for item in map(format_text, myList):
+#     print(item)
+
+
+# def calculate_sum(num):
+#     return num + 20
+
+# myTup = (5, 10, 15, 20, 25,30)
+# for item in map(calculate_sum, myTup):
+#     print(item)
+
+
+
+
+#================================================ Nested Loop =====================
+# myStr=""
+# for item in [1,2,3,4,5,6,7,8,9,10]:
+    # myStr+=str(item)
+    # print(myStr)
+    # for element in [11,12,13]:
+    #     myStr+=str(item)
+    #     print(myStr)
+
+
+#================================================ Filter =====================
+
+# def check_odd (num):
+#     if num % 2 ==0 :
+#         return True
+#     else: 
+#         return False
+    
+# myTup = (5, 10, 15, 20, 25,30)
+# for item in filter(check_odd, myTup):
+#     print(item)
+
+
+
+
+# def check_text (text):
+#     if text.startswith("s") :
+#         return True
+#     else: 
+#         return False
+    
+# myTup = ("ss","gg","sdff","sffff","tgggg","gggg","ghhjjkk")
+# for item in filter(check_text, myTup):
+#     print(item)
+
+
+# counter = 0
+# myStr = ""
+
+
+# for item in myTup:
+#     if item[0] == "s":
+#         counter+=1
+#         myStr = myStr + "\n" + item
+
+
+# print(counter)
+# print(myStr)
+
+
