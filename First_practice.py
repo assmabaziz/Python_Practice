@@ -66,7 +66,7 @@ myList = []
 #     print("The content of my list is : {} \n".format(myList))
 #     print(f"the length of my list is : {len(myList)} \n" )
 
-numSites = 0
+# numSites = 0
 # favSite = input("Let us know about your favorite web sites: ")
 # while numSites < 5 :
 #     favSite = input("Let us know about your favorite web sites: ").lower()
@@ -195,7 +195,7 @@ numSites = 0
 
 
 #===================================================== Functions ============================================================
-myName = "Assma"
+# myName = "Assma"
 # def test_func():
 #     print("hello there".upper())
 
@@ -334,5 +334,29 @@ myName = "Assma"
 
 # print(counter)
 # print(myStr)
+
+
+
+#===================================================== Modules ============================================================
+
+import random
+
+#To display the content of this module: 
+
+# print (dir(random))
+
+# for item in [1,2,3,4,5,6,9,8,7,8,12,33,2,0,00,55,2,3,6,5,8,4]:
+
+#  print(int(random.random() * 15))
+
+
+
+#============================================= My module ==================================================
+import myModule
+
+
+myModule.print_name("assma")
+
+myModule.print_age()
 
 
