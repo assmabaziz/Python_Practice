@@ -355,8 +355,8 @@ import random
 import myModule
 
 
-myModule.print_name("assma")
+# myModule.print_name("assma")
 
-myModule.print_age()
+# myModule.print_age()
 
 
